@@ -1,0 +1,133 @@
+#main-calendario {
+    padding: 20px;
+    background: url('../img/pagos-img/pagos.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.calendar-header-calendario {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.calendar-header-calendario .title-calendar {
+    margin: 0;
+    font-size: 2em;
+    color: #fff;
+}
+.calendar-header-calendario p {
+    font-size: 1.2em;
+    color: #ddd;
+}
+.calendar-container-calendario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.calendar-controls-calendario {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.calendar-controls-calendario button {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 20%;
+}
+.calendar-controls-calendario button:hover {
+    opacity: 0.9;
+    color: black;
+    transform: scale(1.01);
+    filter: drop-shadow(1px 1px 4px rgb(34, 194, 34));
+}
+.calendar-controls-calendario span {
+    font-size: 1.5em;
+    color: white;
+}
+.calendar-calendario {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+.calendar-calendario div {
+    background-color: rgba(118, 118, 118, 0.96);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+.calendar-calendario .calendar-day {
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.calendar-calendario .calendar-day:hover {
+    opacity: .7;
+    color: red;
+}
+.event-details-calendario {
+    background-color: rgba(210, 39, 39, 0.404);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+.event-details-calendario h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: wheat;
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
+#event-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.cancelar-cale {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#event-form input,
+#event-form textarea,
+#event-form button {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+}
+#event-form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#event-form button:hover {
+    background-color: #45a049;
+}
+#event-list {
+    list-style: none;
+    padding: 0;
+}
+#event-list li {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+}

@@ -1,0 +1,143 @@
+#container-class{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/pagos-img/pagos.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.title-class-h2{
+    color: #fff;
+    text-shadow: none; 
+    margin-left: 10px;
+}
+.plan-cards-class {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.plan-card-class {
+    background-color: rgb(6, 6, 6);
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+    margin: 5px;
+    border-radius: 10px;
+}
+.plan-card-class img {
+    width: 95%;
+    border-radius: 5px;
+    height: 75%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.benefits-class{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.benefit-hola-class {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    padding: 20px;
+}
+.Inf-class{
+    padding: 40px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgba(82, 81, 81, 0.9);
+}
+.benefit-class ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.benefit-class ul li {
+    margin-bottom: 15px;
+}
+.boton-class{
+    background-color: rgb(64, 215, 64);
+    color:#fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 40%;
+    font-size: 16px;
+    margin-left: 30%;
+}
+.boton-class:hover {
+    opacity: 0.9;
+    color: #000000;
+    transform: scale(1.01);
+    filter: drop-shadow(1px 1px 8px rgb(34, 194, 34));
+    font-weight: 100;
+}
+.mis-clases-class {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.mis-clases-class h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #ffffff;
+    text-shadow: none;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+thead {
+    background-color: rgba(226, 211, 211, 0.509);
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ffffff;
+}
+.title-th {
+    font-weight: bold;
+    color: black;
+}
+td {
+    color: #ffffff;
+}
+.cancelar-class {
+    background-color: #ff4d4d;
+    color: #000000;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 50%;
+    font-size: 16px;
+    font-weight: 100;
+}
+.cancelar-class:hover {
+    background-color: #e60000;
+    color: #fff;
+}
+.divider-class{
+    background-color: black;
+    border: 1px solid;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}

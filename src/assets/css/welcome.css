@@ -1,0 +1,356 @@
+#header-bienvenido {
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+#header-bienvenido .logo img {
+    height: 90px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#header-bienvenido .social-media {
+    display: flex;
+    align-items: center;
+}
+#header-bienvenido .social-media a img{
+    height: 35px;
+    margin: 0 20px;
+    border-radius: 10%;
+}
+#header-bienvenido .social-media img:hover{
+    transform: scale(1.15);
+    filter: drop-shadow(1px 1px 2px #ccc);
+}
+#nav-bienvenido .button-register{
+    color: #252525;
+    padding: 15px;
+    border-radius: 50px;
+    margin: 8px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    font-weight: 700;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+#nav-bienvenido .button-register:hover{
+    background-color: #174802;
+    color: white;
+}
+#nav-bienvenido .button-login{
+    padding: 16px;
+    border-radius: 50px;
+    margin: 8px;
+    cursor: pointer;
+    background-color: #E73F71;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    font-weight: 700;
+}
+#nav-bienvenido .button-login:hover{
+    background-color: #174802;
+    color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+}
+#header-bienvenido nav{
+    display: flex;
+    align-items: center;
+}
+#header-bienvenido nav a{
+    margin: 0 25px;
+    text-decoration: none;
+    color: white;
+}
+#main-bienvenida{
+    background-image: url("../img/welcome-img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    flex: 1;
+    padding-bottom: 20px;
+}
+.welcome-bienvenida,
+.content-section-bienvenida{
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.99);
+    border-radius: 10px;
+}
+.welcome-bienvenida{
+    background-image: url("../img/welcome-img/gray-black-the-backdrop-royalty-free-thumbnail.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.content-section-bienvenida{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.welcome-bienvenida .text-binvenda,
+.content-section-bienvenida .text-bienbenifa {
+    flex: 1;
+    padding-right: 20px;
+}
+.welcome-bienvenida .image-bienvenida{
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.welcome-bienvenida .image-bienvenida img{
+    max-width: 90%;
+    height: auto;
+    display: block;
+}
+.content-section-bienvenida .image img{
+    max-width: 180px;
+    height: auto;
+    margin-top: 16px;
+    border-radius: 10px;
+}
+.content-section-bienvenida .image img:hover{
+    filter: drop-shadow(1px 1px 8px #a7a4a4);
+    cursor: pointer;
+    transform: scale(1.09);
+}
+.HCJ-bienvenido{
+    color: #fff;
+    text-shadow: none;
+}
+.btn-bienvenida{
+    padding-top: 20px;
+}
+.p-bievenida {
+    color: white;
+}
+.btn-bienvenida .button-register{
+    color: #252525;
+    padding: 15px;
+    border-radius: 50px;
+    margin: 8px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    font-weight: 700;
+    padding-left: 22px;
+    padding-right: 22px;
+    text-decoration: none;
+}
+.btn-bienvenida .button-register:hover{
+    background-color: #252424;
+    color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+}
+.btn-bienvenida .button-login{
+    padding: 16px;
+    border-radius: 50px;
+    margin: 8px;
+    cursor: pointer;
+    background-color: #E73F71;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    font-weight: 700;
+    text-decoration: none;
+    color: #252424;
+}
+.btn-bienvenida .button-login:hover{
+    background-color: #252424;
+    color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+}
+.welcome-bienvenida .text-binvenda .btn-bienvenida .button:hover{
+    background-color: #fff;
+    color: black;
+    transform: scale(1.01);
+    filter: drop-shadow(1px 1px 2px #ccc);
+}
+#footer-bienvenida{
+    background-color: #252424;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#footer-bienvenida nav.footer-nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+#footer-bienvenida .contacto-bienvenida .p-bienvenida {
+    margin: 5px 0;
+    font-size: 17px;
+    text-align: center;
+}
+#footer-bienvenida .contacto-bienvenida{
+    margin-right: 10%;
+}
+
+.titulo-1-welcome{
+    color: #b314b5;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 0.9px 0.9px #000000;
+}
+.complemento-welcome{
+    display: flex;
+    text-align: center;
+    margin-left: 25%;
+    color: #252424;
+    font-size: 24px;
+}
+.principal-welcome {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+.text-welcome{
+    color: #fff;
+}
+.cards-container-welcome {
+    display: flex;
+    width: 100%;
+    max-width: 1100px;
+    margin: 10px;
+}
+.card-welcome {
+    width: 310px;
+    margin-right: 20px;
+    background: #fff;
+    border: 3px solid;
+    border-image: linear-gradient(to bottom, #050315, #E73F71, #433bff) 1;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    box-sizing: border-box; 
+    overflow: hidden;
+}
+.card-welcome:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+.card-welcome img {
+    width: 100%; 
+    height: 250px; 
+    display: block;
+}
+.card-welcome .complement-welcome {
+    color: #E73F71;
+    text-align: center;
+}
+.card-welcome .tex-welcome{
+    font-size: 18px;
+    color: #252424;
+    text-align: center;
+}
+.secundary-welcome{
+    position: relative;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(to right, #000000, #17139f);
+}
+.media-welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+.img-welcome {
+    display: flex;
+    align-items: end; 
+}
+.img1-welcome, .img2-welcome, .img3-welcome {
+    width: 110px; 
+    height: auto; 
+}
+.img1-welcome img {
+    width: 100%; 
+    transform: rotate(-10deg); 
+    border: 3px solid;
+    border-image: linear-gradient(to bottom, #050315, #E73F71, #433bff) 1;
+}
+.img2-welcome img {
+    width: 100%; 
+    transform: rotate(3deg); 
+    border: 3px solid;
+    border-image: linear-gradient(to bottom, #050315, #E73F71, #433bff) 1;
+}
+.img3-welcome img {
+    width: 100%;
+    transform: rotate(10deg);
+    border: 3px solid;
+    border-image: linear-gradient(to bottom, #050315, #E73F71, #433bff) 1;
+}
+.texto-1-welcome{
+    color: #b314b5;
+    text-transform: uppercase; 
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 30%;
+    text-shadow: 2px 2px #000000;
+    width: 100%;
+}
+.tercer-welcome{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.cards-container2-welcome {
+    display: flex;
+    width: 100%;
+    max-width: 1100px;
+    margin: 10px;
+}
+.card2-welcome {
+    width: 310px;
+    margin-right: 20px;
+    background: #fff;
+    border: 3px solid ;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    box-sizing: border-box; 
+    overflow: hidden;
+    border-image: linear-gradient(to right, #433bff, #E73F71, #050315) 1; 
+}
+.card2-welcome:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+.card2-welcome img {
+    width: 100%; 
+    height: 250px; 
+    display: block;
+}
+.card2-welcome .complement2-welcome {
+    color: #E73F71;
+    text-align: center;
+}
+.card2-welcome .tex-welcome{
+    font-size: 18px;
+    color: #252424;
+    text-align: center;
+}

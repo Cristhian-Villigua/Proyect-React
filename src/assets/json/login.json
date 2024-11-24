@@ -1,0 +1,17 @@
+{
+    "title": "Iniciar Sesión",
+    "flieds": [
+        {
+            "type": "email",
+            "label": "Correo electrónico:",
+            "model": "email",
+            "placeholder": " "
+        },
+        {
+            "type": "password",
+            "label": "Contraseña:",
+            "model": "pass",
+            "placeholder": " "
+        }
+    ]
+}

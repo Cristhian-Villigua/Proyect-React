@@ -1,0 +1,105 @@
+header {
+    background-color: #252424;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+header .logo img {
+    height: 90px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+header .social-media {
+    display: flex;
+    align-items: center;
+}
+header .social-media a img {
+    height: 35px;
+    margin: 0 20px;
+    border-radius: 10%;
+}
+.social-media img:hover{
+    transform: scale(1.15);
+    filter: drop-shadow(1px 1px 2px #ccc);
+}
+#menuprincipal {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+#menuprincipal a {
+    margin: 0 25px;
+    text-decoration: none;
+    color: white;
+}
+#menuprincipal a:hover{
+    text-shadow: rgb(240, 69, 86) 1.5px 1.5px;
+}
+header .sidebar-icon {
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
+}
+.sidebar {
+    display: none; /* Oculto por defecto */
+    background-color: #292727d0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 30vh;
+    width: 250px;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+    padding: 20px;
+    overflow-y: auto;
+    z-index: 1000;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.sidebar.active {
+    display: block;
+    transform: translateX(0); 
+}
+.sidebar:not(.active) {
+    transform: translateX(100%);
+}
+.sidebar .close-btn {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    text-align: right;
+}
+.sidebar .close-btn:hover{
+    text-shadow: rgb(240, 69, 86) 1.5px 1.5px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-color: rgb(16, 207, 16);
+    margin: 10px 0;
+    font-weight: 600;
+    text-shadow: 1px 1px #fff;
+}
+.sidebar .user-info {
+    margin-bottom: 20px;
+}
+.sidebar .user-info p {
+    color: white;;
+    margin: 5px 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-shadow: 1px 1px black;
+}
+.sidebar a {
+    display: block;
+    margin: 20px 0;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-shadow: 1px 1px black;
+}
+.sidebar a:hover{
+    text-shadow: rgb(240, 69, 86) 1.5px 1.5px;
+}

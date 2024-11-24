@@ -1,0 +1,154 @@
+#container-login{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../img/register-img/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.box-login{
+    width: 400px;
+    height: 450px;
+    padding: 20px;
+    border: 2px solid #625d5d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+}
+.icono{
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.title-login{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px yellowgreen;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+}
+.inputbox label{
+    position: absolute;
+    top: -5%;
+    left: 5px;
+    /*transform: translateY(-50%);*/
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: 0.5s;
+    text-shadow: #000 1.5px 1.5px;
+}
+input:focus~label,
+input:valid~label{
+    top: -5px;
+}
+.inputbox input:focus{
+    border-color: darkgray;
+}
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: rgba(255, 255, 0, 0.863);
+    border-bottom: 2px solid #fff;
+}
+.inputbox .error-message {
+    color: rgb(183, 255, 0);
+    font-size: 0.9em;
+    visibility: hidden;
+}
+.boton-login{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-shadow: black 1px 1px;
+    box-shadow: inset -1.5px -1.5px #333;
+}
+.boton-login:hover{
+    opacity: .9;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.009);
+}
+.forget{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 15px;
+    font-size: 0.9em;
+    color: #fff;
+}
+.forget label:nth-child(2){
+    order: 1;
+}
+.forget label{
+    display: flex;
+    align-items: center;
+}
+.forget label input[type="checkbox"]{
+    margin-right: 6px;
+}
+.forget label .a{
+    font-weight: 800;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.forget label .a:hover{
+    color: #ffc107;
+    text-decoration: underline;
+}
+.register{
+    font-size: 0.9em;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    padding-left: 10px;
+}
+.register a:hover {
+    color: #ffc107;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+.volver{
+    text-align: center;
+}
+.inicio{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+}
+.inicio:hover{
+    color: #ffc107;
+    text-decoration: underline;
+}

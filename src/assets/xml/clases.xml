@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clases>
+  <clase tipo="Yoga">
+    <instructor>Albertho Lopez</instructor>
+    <dia>En la mañana</dia>
+    <hora>08:00 am a 9:30 am</hora>
+    <ubicacion>Sala de Yoga</ubicacion>
+    <plazas>15</plazas>
+  </clase>
+  <clase tipo="Yoga">
+    <instructor>Maria González</instructor>
+    <dia>En la tarde</dia>
+    <hora>13:00 pm a 14:30 pm</hora>
+    <ubicacion>Sala de Yoga</ubicacion>
+    <plazas>7</plazas>
+  </clase>
+  <clase tipo="Yoga">
+    <instructor>Luisa Fernanda</instructor>
+    <dia>En la noche</dia>
+    <hora> De 18:00 pm a 19:30 pm</hora>
+    <ubicacion>Sala de Yoga</ubicacion>
+    <plazas>6</plazas>
+  </clase>
+  <clase tipo="Pilates">
+    <instructor>Ana Torres</instructor>
+    <dia>En la mañana</dia>
+    <hora>10:00 am a 11:30 am</hora>
+    <ubicacion>Sala de Pilates</ubicacion>
+    <plazas>9</plazas>
+  </clase>
+  <clase tipo="Pilates">
+    <instructor>Jorge Hernández</instructor>
+    <dia>En la tarde</dia>
+    <hora>16:00 pm a 17:30 pm</hora>
+    <ubicacion>Sala de Pilates</ubicacion>
+    <plazas>15</plazas>
+  </clase>
+   <clase tipo="Pilates">
+    <instructor>Patricia Morales</instructor>
+    <dia>En la noche</dia>
+    <hora>De 20:00 pm a 21:30 pm</hora>
+    <ubicacion>Sala de Pilates</ubicacion>
+    <plazas>10</plazas>
+  </clase>
+  <clase tipo="Meditación">
+    <instructor>Ricardo Gómez</instructor>
+    <dia>En la mañana</dia>
+    <hora>De 06:00 am a 07:00 am</hora>
+    <ubicacion>Sala de Meditación</ubicacion>
+    <plazas>12</plazas>
+  </clase>
+  <clase tipo="Meditación">
+    <instructor>Elena Fernández</instructor>
+    <dia>En la tarde</dia>
+    <hora> De 15:00 pm a 16:00 pm</hora>
+    <ubicacion>Sala de Meditación</ubicacion>
+    <plazas>14</plazas>
+  </clase>
+  <clase tipo="Meditación">
+    <instructor>Francisco Rivas</instructor>
+    <dia>En la noche</dia>
+    <hora> De 19:00 pm a 20:00 pm</hora>
+    <ubicacion>Sala de Meditación</ubicacion>
+    <plazas>5</plazas>
+  </clase>
+  <clase tipo="Baile Terapia">
+    <instructor>Laura Martínez</instructor>
+    <dia>En la mañana</dia>
+    <hora> De 11:30:00 am a 12:30 pm</hora>
+    <ubicacion>Sala de Baile Terapia</ubicacion>
+    <plazas>6</plazas>
+  </clase>
+  <clase tipo="Baile Terapia">
+    <instructor>David Sánchez</instructor>
+    <dia>En la noche</dia>
+    <hora> De 20:00 pm a 21:40 pm</hora>
+    <ubicacion>Sala de Baile Terapia</ubicacion>
+    <plazas>5</plazas>
+  </clase>
+</clases>

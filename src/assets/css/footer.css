@@ -1,0 +1,22 @@
+#footer{
+    background-color: #252424;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#footer nav.footer-nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+#footer .contacto .p-bienvenida {
+    margin: 5px 0;
+    font-size: 17px;
+    text-align: center;
+}
+#footer .contacto{
+    margin-right: 10%;
+}

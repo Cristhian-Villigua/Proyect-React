@@ -1,0 +1,233 @@
+#container-pay-body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/pagos-img/pagos.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.select-pay{
+    margin-left: 20px;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.metodo-pago{
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.custom-select-pay {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    width: 14%;
+}
+.custom-select-pay:hover {
+    background-color: #f0f0f0;
+}
+.custom-select-pay:focus {
+    outline: none;
+    border-color: #000000;
+}
+.form-section-pay {
+    margin-bottom: 20px;
+}
+.payment-option-pay {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.payment-option-pay img {
+    margin-left: 10px;
+    height: 20px;
+}
+.payment-method-label-pay {
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.pag-pay{
+    padding: 0;
+    background-color: aqua;
+}  
+.container-pay {
+    display: flex; 
+    width: 100%; 
+}
+.parte-pay {
+    box-sizing: border-box; 
+    padding: 20px; 
+    
+}
+.izquierda-pay {
+    color: #000000;
+    width: 120%;
+    background-color: rgba(133, 133, 133, 0.907);
+    display: flex;
+    padding: 20px; 
+    margin-left: 20px;
+}
+.derecha-pay {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-right: 20px;
+}
+label {
+    font-weight: bold; 
+    margin-bottom: 5px; 
+}
+button {
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    background-color: #187703;
+    color: #fff;
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}  
+button:hover {
+    opacity: .9;
+    color: rgba(0, 0, 0, 0.847);
+}
+.historial-transacciones-pay {
+    margin-bottom: 20px;
+}
+.historial-transacciones-pay table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.historial-transacciones-pay th, .historial-transacciones-pay td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.historial-transacciones-pay th {
+    background-color: #000000;
+}
+.recibos-comprobantes-pay table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.recibos-comprobantes-pay th, .recibos-comprobantes td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.recibos-comprobantes-pay th {
+    background-color: #000000;
+}
+.recibos-comprobantes-pay td a {
+    color: rgb(0, 255, 17);
+    text-decoration: underline;
+}
+tr{
+    background-color: rgba(133, 133, 133, 0.907);
+}
+.form-group-pay {
+    margin-bottom: 20px;
+}
+.tarj-pay{
+    font-size: 18px;
+    font-weight: bold;
+}
+.izquierda-pay img {
+    padding-right: 5px;
+    width: 430px;
+    border-radius: 5px;
+}
+.izquierda-pay ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.izquierda-pay ul h6{
+    margin: 0;
+    padding: 3px;
+}
+.izquierda-pay, ul , .text{
+    text-align: center;
+}
+.historial-transacciones-pay{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.historial-transacciones-pay a{
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+}
+.historial-transacciones-pay a:hover{
+    color: #17eb04;
+}
+.divider-pay{
+    background-color: #ccc;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.history{
+    font-size: 24px;
+    margin-left: 35px;
+}
+th{
+    color: #fff;
+    font-size: 20px;
+}
+.membership-info-container {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+    margin-bottom: 20px; 
+} 
+.membership-info-image img {
+    width: 480px;
+    height: auto;
+    border-radius: 8px; 
+}  
+.membership-info-details {
+    flex: 1;
+}  
+.membership-info-details h6 {
+    margin: 5px 0; 
+} 
+.divider {
+    border: 1px solid #ddd;
+    margin: 10px 0; 
+} 
+.text1 {
+    font-size: 25px; 
+    color: #fff; 
+    font-weight: bold;
+}
+.text {
+    font-size: 30px;
+    color: #fff; 
+}
+.parrafo1{
+    font-size: 20px;
+}
+.cancelar-pago{
+    background-color: #ff4d4d;
+    color: #000000;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 100;
+} 
+.cancelar-pago:hover{
+    background-color: #e60000;
+    color: #fff;
+}
